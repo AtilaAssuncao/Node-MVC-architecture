@@ -6,7 +6,7 @@ import path from 'path';
 import ejsLayouts from 'express-ejs-layouts';
 import session from 'express-session';
 import passport from 'passport';
-import mogran from 'morgan';
+import morgan from 'morgan';
 
 // Import Models[pastas]
 import passportConfig from './config/passport';
